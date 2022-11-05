@@ -9,6 +9,7 @@ public class HelloWorldController {
 	public String hello() {
 		//Just a test method
 		String demo="hello";
+		System.out.println("hello world");
 		return "Hello javaTpoint";
 	}
 }
